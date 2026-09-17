@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 18px 30px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.nav img {
+    width: 50px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav a {
+    font-size: 17px;
+    transition: all ease 0.3s;
+}
+
+nav a:hover{
+    color: orange;
+    scale: 1.1;
+}
